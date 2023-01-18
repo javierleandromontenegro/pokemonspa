@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.sorry{
+    height: 30rem;
+
+}
+
+.message {
+    
+        background: #000000;
+    
+        display: flex;
+        background-color: rgb(16 16 16 / 20%);
+        color: white;
+        flex-direction: row;
+        align-content: stretch;
+        justify-content: space-evenly;
+        align-items: center;
+        box-shadow: 0px 20px 12px 3px rgb(251 251 251 / 30%);
+        height: 9rem;
+        width: 35rem;
+        border-radius: 10%;
+}

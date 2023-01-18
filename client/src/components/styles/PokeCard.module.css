@@ -1,0 +1,31 @@
+.container{
+    font-family: pokefont , Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    height: 20rem;
+    width: 15rem;
+    border-radius : 10%;
+    padding: 1rem;
+    margin: 1.3rem;
+    border : none;
+    box-shadow: -2px 4px 20px 20px rgb(0 0 0 / 30%);
+    background-color: rgba(214, 214, 214, 0.589);
+    transition : .5s
+  }
+  
+  .container:hover{
+    height: 22rem;
+    width: 15.5rem;
+    border-radius : 10%;
+     
+    box-shadow: -2px 4px 20px 20px rgba(251, 252, 248, 0.651);
+    background-color: rgba(37, 34, 49, 0.603);
+    transition: .5s
+  }
+
+
+
+.image1 {
+    width : 11rem;
+    height: 11rem;
+
+}

@@ -1,0 +1,26 @@
+.search{
+    display: flex;
+    margin: 1rem;
+}
+
+.barr{
+    width : 15rem;
+    height: 2rem;
+    
+    border: none;
+    border-radius: 10px;
+    background: #e6e6e6;
+    margin-right: 10px;
+}
+
+
+.btn {
+    
+        cursor: pointer;
+        width: 6rem;
+        height: 2rem;
+        border: 0px inset rgba(107,14,165,0.16);
+        border-radius: 31px;
+    transition: .5s;
+    }
+

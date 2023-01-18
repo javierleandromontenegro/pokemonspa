@@ -1,0 +1,184 @@
+.diadia {
+    background-color: rgb(85, 173, 250);
+    background-image: url('../../imgsGif/day1.jpg') ;
+   
+    background-size: 100%;
+   
+    background-size: cover;
+    
+    display : flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.nochenoche{
+    background-color: black;
+    background-image: url('../../imgsGif/nigth.jpg') ;
+    background-size: 100%;
+   
+    background-size: cover;
+    
+    display : flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.general1{
+    
+    background-color : rgba(250, 165, 53, 0.842);
+    
+    display : flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.cardsPoke {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.home{
+    margin-top: 0px;
+}
+
+.linky{
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.presentation {
+    background: #3107CE;
+background: -moz-linear-gradient(top, #3107CE 0%, #0C002F 0%, #62DCDC 100%);
+background: -webkit-linear-gradient(top, #3107CE 0%, #0C002F 0%, #62DCDC 100%);
+background: linear-gradient(to bottom, #3107CE 0%, #0C002F 0%, #62DCDC 100%);
+    display: flex;
+    background-color: rgb(16 16 16 / 50%);
+    color: white;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 20px 12px 3px rgb(251 251 251 / 30%);
+    height: 9rem;
+}
+
+.logos{
+    height: 7rem;
+    margin-left: 1rem;
+}
+
+.end{
+    padding-bottom : 10rem;
+    margin-bottom: 1rem;
+}
+
+.nigth {
+    padding: 3px;
+    margin: 1px;
+    width: 3rem;
+    height: 2rem;
+    border: 0px inset rgba(107,14,165,0.16);
+    border-radius: 31px;
+transition: .5s;
+}
+
+.nigth:hover {
+    border: 5px inset rgba(1, 1, 2, 0.16);
+border-radius: 31px;
+transition: .5s;
+
+}
+.welc{
+    padding-right: 5rem;
+}
+
+.presentation2 {
+    background: #000000;
+
+    display: flex;
+    background-color: rgb(16 16 16 / 20%);
+    color: white;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 20px 12px 3px rgb(251 251 251 / 30%);
+    height: 9rem;
+    width: 100%;
+}
+
+.welc2{
+    padding-right: 5rem;
+    width: 5rem;
+    margin-right: 3rem;
+}
+
+.welc3{
+    padding-right: 5rem;
+    margin-right: 6rem;
+}
+
+.btnCreate{
+    padding: 1rem;
+    font-size: 1.3rem;
+     margin-right: 3rem;
+     -webkit-border-radius: 40px;
+     -moz-border-radius: 40px;
+     border-radius: 40px;
+     border-bottom: 0px outset #4437A5;
+
+border: 0px inset rgba(107,14,165,0.16);
+border-radius: 31px;
+transition: .5s;
+    }
+
+.btnCreate:hover {
+    
+    border: 5px inset rgba(1, 1, 2, 0.16);
+    border-radius: 31px;
+    transition: .5s;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin : 1rem;
+}
+
+.pagin {
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    border: 2px inset rgba(107,14,165,0.16);
+    border-radius: 5px;
+transition: .5s;
+}
+
+.pagin {
+    cursor: pointer;
+    width: 3rem;
+    height: 2rem;
+    border: 2px inset rgba(107,14,165,0.16);
+    border-radius: 5px;
+transition: .5s;
+margin-right: .5rem;
+margin-left: .5rem;
+}

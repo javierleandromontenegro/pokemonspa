@@ -1,0 +1,8 @@
+.pagin {
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    border: 2px inset rgba(107,14,165,0.16);
+    border-radius: 5px;
+transition: .5s;
+}

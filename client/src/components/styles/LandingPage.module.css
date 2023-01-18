@@ -1,0 +1,88 @@
+.back1{
+   
+    background-image: url('../../imgsGif/pokeBack.gif') ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.relativecont{
+    width : 60%;
+    height: 100%;
+ position : relative;
+ font-family: pokefont , Arial, Helvetica, sans-serif;
+   
+
+}
+
+.welcome{
+    font-size: 5rem;
+    color : rgb(39, 32, 32)
+}
+
+
+.linky {
+
+    display: flex;
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.pokeimage {
+    height: 10%;
+    width: 10%;
+    position: relative;
+    top: 9.9rem;
+    right: 31rem;
+ 
+}
+.btn {
+    
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    border: none;
+
+    padding: 16px 32px;
+    color: #fff;
+    font-family: pokefont;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 1;
+    border-radius: 24px;
+
+     background-image: linear-gradient(0deg, rgb(91 150 86) 0%, #65d53d 55%, #086e27 90%);
+    background-position: 90% 0;
+    background-size: 200% 200%;
+    box-shadow: 16px -8px 9px 5px #044200b6;
+    position: relative;
+    top : 220px;
+    transition: all 0.9s ease;
+   
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 0px 0px #044200b6;
+    background-position: 0 0;
+    transform: translateY(-25px);
+
+}
+
+
+
+
+

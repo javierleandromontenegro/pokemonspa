@@ -1,0 +1,28 @@
+.select1 {  width : 15rem;
+    margin-bottom: 15px;
+    cursor: pointer;
+    padding: 3px 2px;
+    border: 0px solid #ffffff;
+    border-radius: 10px;
+    background: #e6e6e6;
+    color: #040404;
+    margin-right: 5px;
+}
+
+
+
+.select1:hover {
+    background-color: #c4a0a0;
+}
+
+.nigth {
+    
+    cursor: pointer;
+    width: 9rem;
+    height: 2rem;
+    border: 0px inset rgba(107,14,165,0.16);
+    border-radius: 31px;
+transition: .5s;
+}
+
+
